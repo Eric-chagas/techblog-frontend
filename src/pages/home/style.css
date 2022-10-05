@@ -1,0 +1,121 @@
+body {
+    background-color: antiquewhite;
+}
+
+#banner {
+    background-color: darkorange;
+    padding: 30px;
+}
+
+.logo img {
+    margin: 10px 45%;
+    width: 200px;
+    height: 100px;
+}
+
+.navigation {
+    margin: 20px auto 10px 33%;
+}
+
+.navigation a{
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+.navigation a:visited, a:link {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navigation a:hover{
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navigation a:active{
+    color: goldenrod;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#main-content {
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.big-post {
+    width: 60%;
+    float: left;
+    background-color: #ffffff;
+    margin-right: 30px ;
+}
+
+.big-post img {
+    width: 600px;
+}
+
+.title{
+    margin-left: 0;
+    text-align: left;
+    padding: 0 15px 15px 15px;
+}
+
+.title h2 {
+    color: darkorange;
+}
+
+.title h4 {
+    background-color: grey;
+    padding: 10px;
+    font-size: medium;
+}
+
+.side-col {
+    width: 32%;
+    float: right;
+    margin-right: 30px ;
+}
+
+.side-post {
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    padding: 1px;
+}
+
+.side-post span {
+    display: block;
+}
+
+.side-post a{
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+.side-post a:visited, a:link {
+    color: darkorange;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.side-post a:hover{
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.side-post a:active{
+    color: goldenrod;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.side-post span {
+    text-align: left;
+}
+
+.title h4 {
+    margin-bottom: 0;
+}
